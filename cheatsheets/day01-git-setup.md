@@ -19,12 +19,15 @@ git clone https://github.com/<user>/Portfolio.git
 ## Daily loop
 git pull                              # FIRST thing every session
 git status                            # what changed?
-git add <file>   |  git add .
+git add README.md                     # stage one file
+git add .                             # stage everything in this folder
 git commit -m "Verb-first message: Add customer schema"
 git push                              # LAST thing every session
 
 ## Inspect
-git log --oneline     git diff     git remote -v
+git log --oneline
+git diff
+git remote -v
 
 ## Gotchas
 - Git does not track empty folders. Add a file inside them.
